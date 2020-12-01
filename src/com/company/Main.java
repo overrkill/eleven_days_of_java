@@ -14,6 +14,16 @@ public class Main {
     }
     public static void main(String[] args) {
     //Basic User I/O
+
+        try {
+            int ex = Integer.parseInt("10");
+            System.out.println(ex);
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+
+
         Scanner reader =  new Scanner(System.in);
         int a = reader.nextInt();
         System.out.println(a);
