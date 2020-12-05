@@ -83,12 +83,14 @@ public class DaySix {
 
 
         //implementing threads basics
-
-        RealThread obj = new RealThread();
-        obj.start();
         RunnableThread obj2 = new RunnableThread();
         Thread obj3 = new Thread(obj2);
         obj3.start();
+        RealThread obj = new RealThread();
+        obj.start();
+        System.out.println("Main Thread");
+
+
 
     }
 }
